@@ -1,0 +1,13 @@
+// we dont need node_modules as far as it will be built inside
+node_modules
+
+// will be generated
+dist
+
+// no matter to add logs and docs
+*.log
+*.md
+
+// we also dont need tests
+test
+**/*.*.spec.*
